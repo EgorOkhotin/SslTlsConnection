@@ -1,0 +1,4 @@
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\Numbers\bin\Debug\Numbers.dll
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\Numbers\bin\Debug\Numbers.pdb
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\Numbers\obj\Debug\Numbers.dll
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\Numbers\obj\Debug\Numbers.pdb

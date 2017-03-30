@@ -1,0 +1,4 @@
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\bin\Debug\KeysLibryary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\bin\Debug\KeysLibryary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\obj\Debug\KeysLibryary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\obj\Debug\KeysLibryary.pdb

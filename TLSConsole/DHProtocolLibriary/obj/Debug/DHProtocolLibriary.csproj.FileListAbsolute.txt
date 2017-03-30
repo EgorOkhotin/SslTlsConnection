@@ -1,0 +1,7 @@
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\DHProtocolLibriary.dll
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\DHProtocolLibriary.pdb
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.csprojResolveAssemblyReference.cache
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.dll
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.pdb
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\Numbers.dll
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\Numbers.pdb
