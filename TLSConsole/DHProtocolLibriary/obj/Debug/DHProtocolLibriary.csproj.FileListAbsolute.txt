@@ -3,5 +3,5 @@ c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLib
 c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.csprojResolveAssemblyReference.cache
 c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.dll
 c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.pdb
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\Numbers.dll
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\Numbers.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.pdb

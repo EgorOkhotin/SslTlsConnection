@@ -1,19 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 
 namespace NumbersLibriary
 {
     public class NumberWorker
     {
+        /// <summary>
+        /// Surface test on simple number
+        /// </summary>
+        /// <param name="number">Tested number</param>
+        /// <param name="highBorderNumberOfTest">High border of test</param>
+        /// <returns>IsSimple</returns>
         public static bool SurfaceTest(BigInteger number, int highBorderNumberOfTest)
         {
             if (IsEven(number) == true) return false;
             bool result = false;
-            for (int i = 2; (i <= highBorderNumberOfTest)&(i<number); i++)
+            for (int i = 3; (i <= highBorderNumberOfTest) & (i < number); i++)
             {
                 if (BigInteger.Remainder(number, i) == 0) return result;
             }
@@ -21,13 +23,19 @@ namespace NumbersLibriary
             return result;
         }
 
+        /// <summary>
+        /// Test of Rabin-Miller
+        /// </summary>
+        /// <param name="number">Tested number</param>
+        /// <param name="countOfRounds">Count round of test</param>
+        /// <returns>IsSimple</returns>
         public static bool RabinMillerTest(BigInteger number, int countOfRounds)
         {
             if (IsEven(number) == true) return false;
             bool result = false;
-            int s = 0; 
+            int s = 0;
             int t = 0;
-            BigInteger testingNumber = BigInteger.Add(number,-1);
+            BigInteger testingNumber = BigInteger.Add(number, -1);
 
             //testingNumber=(2^s)*t
             SetValues_s_t(testingNumber, ref t, ref s);
@@ -68,7 +76,7 @@ namespace NumbersLibriary
         private static int Generate_a(int number)
         {
             Random rm = new Random();
-            return rm.Next(0, number-1);
+            return rm.Next(0, number - 1);
 
         }
 

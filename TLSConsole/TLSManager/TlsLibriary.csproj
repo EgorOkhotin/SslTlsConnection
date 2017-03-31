@@ -49,9 +49,9 @@
       <Project>{d6233b76-e0d1-4a1c-a832-bac9ccceebb9}</Project>
       <Name>DHProtocolLibriary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\KeysLibryary\KeysLibryary.csproj">
+    <ProjectReference Include="..\KeysLibriary\KeysLibriary.csproj">
       <Project>{1a4c4c90-d6bb-4afe-a9ff-73a989ed6ab7}</Project>
-      <Name>KeysLibryary</Name>
+      <Name>KeysLibriary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

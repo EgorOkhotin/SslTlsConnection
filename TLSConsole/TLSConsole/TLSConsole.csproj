@@ -49,23 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DHProtocolLibriary\DHProtocolLibriary.csproj">
-      <Project>{d6233b76-e0d1-4a1c-a832-bac9ccceebb9}</Project>
-      <Name>DHProtocolLibriary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\KeysLibryary\KeysLibryary.csproj">
-      <Project>{1a4c4c90-d6bb-4afe-a9ff-73a989ed6ab7}</Project>
-      <Name>KeysLibryary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Numbers\NumbersLibriary.csproj">
-      <Project>{a50f655b-24d4-40cc-bd12-2bb2d23f54a9}</Project>
-      <Name>NumbersLibriary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TLSManager\TlsLibriary.csproj">
-      <Project>{265764bc-0217-4710-b7be-0b74cc974c33}</Project>
-      <Name>TlsLibriary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,9 @@
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\bin\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\bin\Debug\KeysLibriary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\obj\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibryary\obj\Debug\KeysLibriary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibriary\bin\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibriary\bin\Debug\KeysLibriary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibriary\obj\Debug\KeysLibriary.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibriary\obj\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\KeysLibriary\obj\Debug\KeysLibriary.pdb

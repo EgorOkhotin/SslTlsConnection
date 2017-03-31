@@ -1,22 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 
 namespace DHProtocolLibriary
 {
     public sealed class DHClient
     {
-        private static byte _generator;
-        private static BigInteger _publicKeyOtherSide;
-        private static BigInteger _publicKey;
-        private static BigInteger _privateKey;
-        private static BigInteger _divider;
-        private static BigInteger _commonKey;
+        private byte _generator;
+        private BigInteger _publicKeyOtherSide;
+        private BigInteger _publicKey;
+        private BigInteger _privateKey;
+        private BigInteger _divider;
+        private BigInteger _commonKey;
 
-        public void FirstPhase(string publicKeyOtherSide, string divider, string generator)
+        /// <summary>
+        /// New object
+        /// </summary>
+        /// <param name="publicKeyOtherSide">Public key from server</param>
+        /// <param name="divider">Divider of function</param>
+        /// <param name="generator">Generator of function</param>
+        public DHClient(string publicKeyOtherSide, string divider, string generator)
         {
             _generator = Convert.ToByte(generator);
             _publicKeyOtherSide = BigInteger.Parse(publicKeyOtherSide);
@@ -31,6 +33,9 @@ namespace DHProtocolLibriary
             _commonKey = Calculate_commonKey(_divider, _privateKey, _publicKeyOtherSide);
         }
 
+        /// <summary>
+        /// Clear al data in object
+        /// </summary>
         public void ClearGlobalData()
         {
             _generator = 0;
@@ -41,8 +46,14 @@ namespace DHProtocolLibriary
             _commonKey = 0;
         }
 
+        /// <summary>
+        /// Public key of client
+        /// </summary>
         public string PublicKey => _publicKey.ToString();
 
+        /// <summary>
+        /// Common key for encrypt and decrypt
+        /// </summary>
         public string CommonKey => _commonKey.ToString();
 
         private BigInteger Create_privateKey(Random rm, int lowBorder, int highBorder)

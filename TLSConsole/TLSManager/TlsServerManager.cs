@@ -2,27 +2,39 @@
 using System.Security.Cryptography;
 using System.Text;
 using DHProtocolLibriary;
-using KeysLibryary;
+using KeysLibriary;
 
 namespace TlsLibriary
 {
     public class TlsServerManager
     {
-        private readonly DHServer _server = new DHServer();
+        private DHServer _server = new DHServer();
         private readonly Key _key = new Key();
 
+        /// <summary>
+        /// Message for client of server
+        /// </summary>
+        /// <returns>message for client</returns>
         public string GetConnectMessage()
         {
-            _server.FirstPhase();
             return $"{{{_server.PublicKey}}}:{{{_server.Divider}}}:{{{_server.Generator}}}";
         }
 
-        public void SetConnectAnswer(string answer)
+        /// <summary>
+        /// Set value of answer from client
+        /// </summary>
+        /// <param name="answer"></param>
+        public void SetClientPublicKey(string answer)
         {
-            _server.SecondPhase(answer);
+            _server.CalculateKey(answer);
         }
 
-        public string ParseConnectAnswer(string answer)
+        /// <summary>
+        /// Parse answer from client
+        /// </summary>
+        /// <param name="answer">Aswer of client on connect message</param>
+        /// <returns>parsed answer</returns>
+        public virtual string ParseConnectAnswer(string answer)
         {
             answer = answer.Replace("{", "");
             answer = answer.Replace("}", "");

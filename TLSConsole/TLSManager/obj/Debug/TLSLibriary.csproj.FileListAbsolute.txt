@@ -2,10 +2,10 @@ C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\ob
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\TlsLibriary.dll
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\TlsLibriary.pdb
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\DHProtocolLibriary.dll
-C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\KeysLibryary.dll
-C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\Numbers.dll
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\DHProtocolLibriary.pdb
-C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\KeysLibryary.pdb
-C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\Numbers.pdb
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\obj\Debug\TlsLibriary.dll
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\obj\Debug\TlsLibriary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\KeysLibriary.pdb
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\TLSManager\bin\Debug\NumbersLibriary.pdb

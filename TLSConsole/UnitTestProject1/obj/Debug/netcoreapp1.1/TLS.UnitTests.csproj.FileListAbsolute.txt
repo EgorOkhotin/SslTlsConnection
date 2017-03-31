@@ -1,9 +1,0 @@
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\TLS.UnitTests.deps.json
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\TLS.UnitTests.runtimeconfig.json
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\TLS.UnitTests.runtimeconfig.dev.json
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\bin\Debug\netcoreapp1.1\TLS.UnitTests.dll
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\obj\Debug\netcoreapp1.1\TLS.UnitTests.csprojResolveAssemblyReference.cache
-c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\UnitTestProject1\obj\Debug\netcoreapp1.1\TLS.UnitTests.AssemblyInfo.cs

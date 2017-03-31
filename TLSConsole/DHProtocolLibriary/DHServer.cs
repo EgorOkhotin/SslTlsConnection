@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 using NumbersLibriary;
 
@@ -10,13 +6,16 @@ namespace DHProtocolLibriary
 {
     public sealed class DHServer
     {
-        private static byte _generator;
-        private static BigInteger _publicKey;
-        private static BigInteger _privateKey;
-        private static BigInteger _divider;
-        private static BigInteger _commonKey;
+        private byte _generator;
+        private BigInteger _publicKey;
+        private BigInteger _privateKey;
+        private BigInteger _divider;
+        private BigInteger _commonKey;
 
-        public void FirstPhase()
+        /// <summary>
+        /// New object
+        /// </summary>
+        public DHServer()
         {
             int lowBorder = 2, highBorder = 9;
             Random rm = new Random();
@@ -30,11 +29,18 @@ namespace DHProtocolLibriary
             _publicKey = Calculate_publicKey(_divider, _privateKey, _generator);
         }
 
-        public void SecondPhase(string number)
+        /// <summary>
+        /// Calculate common key
+        /// </summary>
+        /// <param name="number">Public key from client</param>
+        public void CalculateKey(string number)
         {
             _commonKey = Calculate_commonKey(_divider, _privateKey, BigInteger.Parse(number));
         }
 
+        /// <summary>
+        /// Clear all data in object
+        /// </summary>
         public void ClearGlobalData()
         {
             _generator = 0;
@@ -44,28 +50,42 @@ namespace DHProtocolLibriary
             _commonKey = 0;
         }
 
+        /// <summary>
+        /// Public key of server
+        /// </summary>
         public string PublicKey => _publicKey.ToString();
+
+        /// <summary>
+        /// Generator of function
+        /// </summary>
         public string Generator => _generator.ToString();
+
+        /// <summary>
+        /// Divider of function
+        /// </summary>
         public string Divider => _divider.ToString();
 
+        /// <summary>
+        /// Common key for encrypt and decrypt
+        /// </summary>
         public string CommonKey => _commonKey.ToString();
 
         private byte Create_generator(byte lowBorder, byte highBorder, Random rm)
         {
-            bool test1, IsNotSimple=true;
-            byte number =0;
-            while (IsNotSimple)
+            bool isNotSimple = true;
+            byte number = 0;
+            while (isNotSimple)
             {
-                number = (byte) rm.Next(lowBorder, highBorder);
-                test1 = NumberWorker.SurfaceTest(number,number-1);
-                if (test1 == true) IsNotSimple = false;
+                number = (byte)rm.Next(lowBorder, highBorder);
+                var test1 = NumberWorker.SurfaceTest(number, number - 1);
+                if (test1 == true) isNotSimple = false;
             }
             return number;
         }
 
         private BigInteger Create_divider(Random rm, int lowBorder, int highBorder)
         {
-            return CreateSimpleBigInteger(rm,lowBorder,highBorder,300);
+            return CreateSimpleBigInteger(rm, lowBorder, highBorder, 300);
         }
 
         private BigInteger Create_privateKey(Random rm, int lowBorder, int highBorder)
@@ -95,15 +115,14 @@ namespace DHProtocolLibriary
 
         private BigInteger CreateSimpleBigInteger(Random rm, int lowBorder, int highBorder, int rangeOfNumber)
         {
-            bool IsNotSimple = true;
-            bool test1;
+            bool isNotSimple = true;
             BigInteger number = 0;
             int highBorderNumbeerOfTest = 10000;
-            while (IsNotSimple)
+            while (isNotSimple)
             {
                 number = CreateBigInteger(rm, lowBorder, highBorder, rangeOfNumber);
-                test1 = NumberWorker.SurfaceTest(number,highBorderNumbeerOfTest);
-                if (test1 == true) IsNotSimple = false;
+                var test1 = NumberWorker.SurfaceTest(number, highBorderNumbeerOfTest);
+                if (test1 == true) isNotSimple = false;
             }
             return number;
         }
