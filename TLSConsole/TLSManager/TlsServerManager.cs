@@ -41,6 +41,9 @@ namespace TlsLibriary
             return answer;
         }
 
+        /// <summary>
+        /// Set key for encryption
+        /// </summary>
         public void SetKeyOfEncrypt()
         {
             _key.EncryptKey = _server.CommonKey;
@@ -48,8 +51,18 @@ namespace TlsLibriary
             _server.ClearGlobalData();
         }
 
-        public byte[] EncryptMessage(string message,ref byte[] IV)
+        /// <summary>
+        /// Encrypt message
+        /// </summary>
+        /// <param name="message">Text whic must be encrypt</param>]
+        /// <param name="IV">Initialization vector (16 bytes)</param>
+        /// <param name="hashSumMessage">Hash sum of message</param>
+        /// <returns>Encrypted message(in byte[])</returns>
+        public byte[] EncryptMessage(string message, out byte[] IV, out byte[] hashSumMessage)
         {
+            byte[] data = Encoding.Unicode.GetBytes(message);
+            hashSumMessage = (new SHA1Managed()).ComputeHash(data);
+
             byte[] encryptedMessage;
             using (AesManaged manager = new AesManaged())
             {
@@ -76,7 +89,15 @@ namespace TlsLibriary
             return encryptedMessage;
         }
 
-        public string DecryptMessage(byte[] encryptMessage, byte[] IV)
+        /// <summary>
+        /// Decrypt message
+        /// </summary>
+        /// <param name="encryptMessage">text whic must be decrypt</param>
+        /// <param name="IV">Initialization vector(16 bytes)</param>
+        /// <param name="hashSumMessage">Hash sum of message</param>
+        /// <param name="isSuccess">(hash sum message) == (decrypt hash sum message)</param>
+        /// <returns>Decrypted message</returns>
+        public string DecryptMessage(byte[] encryptMessage, byte[] IV, byte[] hashSumMessage, out bool isSuccess)
         {
             string decryptMessage;
             using (AesManaged manager = new AesManaged())
@@ -100,6 +121,11 @@ namespace TlsLibriary
                     }
                 }
             }
+            byte[] data = Encoding.Unicode.GetBytes(decryptMessage);
+            var result = (new SHA1Managed()).ComputeHash(data);
+
+            if (result == hashSumMessage) isSuccess = true;
+            else isSuccess = false;
 
             return decryptMessage;
         }

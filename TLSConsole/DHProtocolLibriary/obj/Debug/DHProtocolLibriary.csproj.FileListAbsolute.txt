@@ -5,3 +5,10 @@ c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLib
 c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.pdb
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.dll
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\DHProtocolLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\DHProtocolLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.pdb

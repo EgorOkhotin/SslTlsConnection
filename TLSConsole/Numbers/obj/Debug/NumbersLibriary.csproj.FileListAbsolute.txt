@@ -3,3 +3,8 @@ C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\Numbers\bin\D
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\Numbers\obj\Debug\NumbersLibriary.dll
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\Numbers\obj\Debug\NumbersLibriary.pdb
 C:\Users\Егор\Documents\Visual Studio 2017\Projects\TLSConsole\Numbers\obj\Debug\NumbersLibriary.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\Numbers\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\Numbers\bin\Debug\NumbersLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\Numbers\obj\Debug\NumbersLibriary.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\Numbers\obj\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\Numbers\obj\Debug\NumbersLibriary.pdb

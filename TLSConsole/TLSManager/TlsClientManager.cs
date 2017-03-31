@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
@@ -37,9 +38,12 @@ namespace TlsLibriary
         /// </summary>
         /// <param name="message">Text whic must be encrypt</param>]
         /// <param name="IV">Initialization vector (16 bytes)</param>
+        /// <param name="hashSumMessage">Hash sum of message</param>
         /// <returns>Encrypted message(in byte[])</returns>
-        public byte[] EncryptMessage(string message, byte[] IV)
+        public byte[] EncryptMessage(string message, byte[] IV, out byte[] hashSumMessage)
         {
+            byte[] data = Encoding.Unicode.GetBytes(message);
+            hashSumMessage = (new SHA1Managed()).ComputeHash(data);
             byte[] encryptedMessage;
             using (AesManaged manager = new AesManaged())
             {
@@ -72,8 +76,10 @@ namespace TlsLibriary
         /// </summary>
         /// <param name="encryptMessage">text whic must be decrypt</param>
         /// <param name="IV">Initialization vector(16 bytes)</param>
+        /// <param name="hashSumMessage">Hash sum of message</param>
+        /// <param name="isSuccess">(hash sum message) == (decrypt hash sum message)</param>
         /// <returns>Decrypted message</returns>
-        public string DecryptMessage(byte[] encryptMessage, byte[] IV)
+        public string DecryptMessage(byte[] encryptMessage, byte[] IV, byte[] hashSumMessage, out bool isSuccess)
         {
             string decryptMessage;
             using (AesManaged manager = new AesManaged())
@@ -97,6 +103,11 @@ namespace TlsLibriary
                     }
                 }
             }
+            byte[] data = Encoding.Unicode.GetBytes(decryptMessage);
+            var result = (new SHA1Managed()).ComputeHash(data);
+
+            if (result.SequenceEqual(hashSumMessage)) isSuccess = true;
+            else isSuccess = false;
 
             return decryptMessage;
         }

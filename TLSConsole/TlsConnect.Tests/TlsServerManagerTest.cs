@@ -31,9 +31,11 @@ namespace TlsConnect.Tests
             var answer = serverManager.ParseConnectAnswer(clientManager.GetConnectAnswer());
             serverManager.SetClientPublicKey(answer);
             var IV = new byte[16];
-            var encryptManag = serverManager.EncryptMessage(message, ref IV);
-            string result = clientManager.DecryptMessage(encryptManag, IV);
-            Assert.AreEqual(message,result);
+            byte[] hashSum = null;
+            bool isSuccess;
+            var encryptManag = serverManager.EncryptMessage(message, out IV, out hashSum);
+            string result = clientManager.DecryptMessage(encryptManag, IV, hashSum, out isSuccess);
+            Assert.IsTrue(isSuccess);
         }
     }
 }
