@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using DHProtocolLibriary;
@@ -124,7 +125,7 @@ namespace TlsLibriary
             byte[] data = Encoding.Unicode.GetBytes(decryptMessage);
             var result = (new SHA1Managed()).ComputeHash(data);
 
-            if (result == hashSumMessage) isSuccess = true;
+            if (result.SequenceEqual(hashSumMessage)) isSuccess = true;
             else isSuccess = false;
 
             return decryptMessage;
