@@ -12,3 +12,7 @@ C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\D
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.csprojResolveAssemblyReference.cache
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.dll
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\DHProtocolLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\bin\Debug\NumbersLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.Properties.Resources.resources
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\DHProtocolLibriary\obj\Debug\DHProtocolLibriary.csproj.GenerateResource.Cache

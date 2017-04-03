@@ -73,3 +73,10 @@ C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Deb
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\obj\Debug\TlsConnect.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\obj\Debug\TlsConnect.Tests.dll
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\obj\Debug\TlsConnect.Tests.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\RsaLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\RsaLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\DHProtocolLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\NumbersLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\RsaLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\TlsLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\KeysLibriary.xml

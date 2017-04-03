@@ -20,3 +20,7 @@ C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\bin\Debug\Num
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\obj\Debug\TlsLibriary.csprojResolveAssemblyReference.cache
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\obj\Debug\TlsLibriary.dll
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\obj\Debug\TlsLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\bin\Debug\TlsLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\bin\Debug\DHProtocolLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\bin\Debug\KeysLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSManager\bin\Debug\NumbersLibriary.xml

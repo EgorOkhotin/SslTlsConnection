@@ -7,6 +7,5 @@ c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\ob
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe.config
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.pdb
-C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.csprojResolveAssemblyReference.cache
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.exe
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.pdb

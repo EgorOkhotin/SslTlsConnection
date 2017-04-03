@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DHProtocolLibriary</name>
+    </assembly>
+    <members>
+        <member name="M:DHProtocolLibriary.DHServer.#ctor">
+            <summary>
+            New object
+            </summary>
+        </member>
+        <member name="M:DHProtocolLibriary.DHServer.CalculateKey(System.String)">
+            <summary>
+            Calculate common key
+            </summary>
+            <param name="number">Public key from client</param>
+        </member>
+        <member name="M:DHProtocolLibriary.DHServer.ClearGlobalData">
+            <summary>
+            Clear all data in object
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHServer.PublicKey">
+            <summary>
+            Public key of server
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHServer.Generator">
+            <summary>
+            Generator of function
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHServer.Divider">
+            <summary>
+            Divider of function
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHServer.CommonKey">
+            <summary>
+            Common key for encrypt and decrypt
+            </summary>
+        </member>
+        <member name="M:DHProtocolLibriary.DHClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            New object
+            </summary>
+            <param name="publicKeyOtherSide">Public key from server</param>
+            <param name="divider">Divider of function</param>
+            <param name="generator">Generator of function</param>
+        </member>
+        <member name="M:DHProtocolLibriary.DHClient.ClearGlobalData">
+            <summary>
+            Clear al data in object
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHClient.PublicKey">
+            <summary>
+            Public key of client
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.DHClient.CommonKey">
+            <summary>
+            Common key for encrypt and decrypt
+            </summary>
+        </member>
+        <member name="T:DHProtocolLibriary.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:DHProtocolLibriary.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

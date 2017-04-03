@@ -1,0 +1,9 @@
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\RsaLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\RsaLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\NumbersLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\obj\Debug\RsaLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\obj\Debug\RsaLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\obj\Debug\RsaLibriary.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\RsaLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\RsaLibriary\bin\Debug\NumbersLibriary.xml
