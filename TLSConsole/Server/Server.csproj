@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F736EA1D-E229-4ACE-93D1-82508F499200}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TLSConsole</RootNamespace>
-    <AssemblyName>TLSConsole</AssemblyName>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>ServerApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RsaLibriary\RsaLibriary.csproj">
+      <Project>{d660cb58-a8d6-462e-b6b3-1e84f1f12c38}</Project>
+      <Name>RsaLibriary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TLSManager\TlsLibriary.csproj">
+      <Project>{265764bc-0217-4710-b7be-0b74cc974c33}</Project>
+      <Name>TlsLibriary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

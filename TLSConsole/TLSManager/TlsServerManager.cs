@@ -23,6 +23,7 @@ namespace TlsLibriary
         public void SetClientPublicKey(string answer)
         {
             _server.CalculateKey(answer);
+            SetKeyOfEncrypt();
         }
 
         /// <summary>
@@ -40,7 +41,7 @@ namespace TlsLibriary
         /// <summary>
         /// Set key for encryption
         /// </summary>
-        public void SetKeyOfEncrypt()
+        private void SetKeyOfEncrypt()
         {
             KeyOfEncrypt.EncryptKey = _server.CommonKey;
             KeyOfEncrypt.MakeKeyReadOnly();

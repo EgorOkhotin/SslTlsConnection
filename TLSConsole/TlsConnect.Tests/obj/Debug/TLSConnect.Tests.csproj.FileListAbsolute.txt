@@ -80,3 +80,6 @@ C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Deb
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\RsaLibriary.xml
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\TlsLibriary.xml
 C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\KeysLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\TLSConsole.exe
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\TLSConsole.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TlsConnect.Tests\bin\Debug\TLSConsole.exe.config

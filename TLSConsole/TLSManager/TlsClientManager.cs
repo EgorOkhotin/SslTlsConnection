@@ -27,14 +27,17 @@ namespace TlsLibriary
             return $"{{{_client.PublicKey}}}";
         }
 
-       
+        public void ClearData()
+        {
+            _client.ClearGlobalData();
+        }
 
         private void SetConnectMessage(string key,string divider,string generator)
         {
             _client = new DHClient(key, divider, generator);
             KeyOfEncrypt.EncryptKey = _client.CommonKey;
             KeyOfEncrypt.MakeKeyReadOnly();
-            _client.ClearGlobalData();
+
         }
 
         private string ParseConnectPhrase(string phrase)

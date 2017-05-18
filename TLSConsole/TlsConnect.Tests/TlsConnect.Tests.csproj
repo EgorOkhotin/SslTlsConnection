@@ -56,6 +56,7 @@
     <Compile Include="NumbersLibriaryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RsaLibriary.Test.cs" />
+    <Compile Include="TLSConsole.Test.cs" />
     <Compile Include="TlsServerManagerTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +74,10 @@
     <ProjectReference Include="..\RsaLibriary\RsaLibriary.csproj">
       <Project>{d660cb58-a8d6-462e-b6b3-1e84f1f12c38}</Project>
       <Name>RsaLibriary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{f736ea1d-e229-4ace-93d1-82508f499200}</Project>
+      <Name>Server</Name>
     </ProjectReference>
     <ProjectReference Include="..\TLSManager\TlsLibriary.csproj">
       <Project>{265764bc-0217-4710-b7be-0b74cc974c33}</Project>

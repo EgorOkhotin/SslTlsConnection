@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KeysLibriary</name>
+    </assembly>
+    <members>
+        <member name="P:KeysLibriary.Key.EncryptKey">
+             <summary>
+            Key for encrypt and decrypt
+             </summary>
+        </member>
+        <member name="M:KeysLibriary.Key.MakeKeyReadOnly">
+            <summary>
+            Make key only for read
+            </summary>
+        </member>
+    </members>
+</doc>

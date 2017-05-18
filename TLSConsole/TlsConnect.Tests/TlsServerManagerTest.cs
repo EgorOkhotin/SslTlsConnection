@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Text;
+using NUnit.Framework;
 using TlsLibriary;
 
 namespace TlsConnect.Tests
@@ -7,11 +9,11 @@ namespace TlsConnect.Tests
     class TlsServerManagerTest
     {
         [Test]
-        [TestCase("{123790}")]
-        public void ParseConnectManager_GetNumber_ReturnTrue(string answer)
+        public void ParseConnectManager_GetNumber_ReturnTrue()
         {
+            string answer = (new Random()).Next(0,int.MaxValue).ToString();
             TlsServerManager manager = new TlsServerManager();
-            Assert.AreEqual("123790",manager.ParseConnectAnswer(answer));
+            Assert.AreEqual(answer,manager.ParseConnectAnswer(answer));
         }
 
 
@@ -21,9 +23,9 @@ namespace TlsConnect.Tests
     class TlsCompleteTest
     {
         [Test]
-        [TestCase("Helloworld")]
-        public void CompleteTest_EncryptAndDecryptMessage_ReturnTrue(string message)
+        public void CompleteTest_EncryptAndDecryptMessage_ReturnTrue()
         {
+            string message = RandomString((new Random()).Next(10, 1000));
             TlsServerManager serverManager = new TlsServerManager();
             string connectMessage = serverManager.GetConnectMessage();
             TlsClientManager clientManager = new TlsClientManager();
@@ -36,6 +38,19 @@ namespace TlsConnect.Tests
             var encryptManag = serverManager.EncryptMessage(message, out IV, out hashSum);
             string result = clientManager.DecryptMessage(encryptManag, IV, hashSum, out isSuccess);
             Assert.IsTrue(isSuccess);
+        }
+
+        public static string RandomString(int size)
+        {
+            StringBuilder builder = new StringBuilder();
+            Random random = new Random();
+            char ch;
+            for (int i = 0; i < size; i++)
+            {
+                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * random.NextDouble() + 65)));
+                builder.Append(ch);
+            }
+            return builder.ToString();
         }
     }
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RsaLibriary</name>
+    </assembly>
+    <members>
+        <member name="P:RsaLibriary.RsaManager.PublicKey">
+            <summary>
+            Your public key for encryption
+            </summary>
+        </member>
+        <member name="M:RsaLibriary.RsaManager.#ctor">
+            <summary>
+            New manager
+            </summary>
+        </member>
+        <member name="M:RsaLibriary.RsaManager.EncryptMessage(System.String,System.Boolean,System.String)">
+            <summary>
+            Encrypt message
+            </summary>
+            <param name="message">Test which must be encrypted</param>
+            <param name="fOAEP">Support OAEP or not</param>
+            <param name="publicKey">Public key for encryption</param>
+            <returns>Encrypted data</returns>
+        </member>
+        <member name="M:RsaLibriary.RsaManager.DecryptMessage(System.Byte[],System.Boolean)">
+            <summary>
+            Decrypt message
+            </summary>
+            <param name="message">Message which must be encrypted</param>
+            <param name="fOAEP">Support OAEP or not</param>
+            <returns>Decrypted message</returns>
+        </member>
+        <member name="M:RsaLibriary.RsaManager.GetDigitalSignature(System.Byte[])">
+            <summary>
+            Get your digital signature
+            </summary>
+            <param name="hashSumOfMessage">Hash sum of sending message</param>
+            <returns>Digital signature</returns>
+        </member>
+        <member name="M:RsaLibriary.RsaManager.IsValidDigitalSignature(System.Byte[],System.Byte[],System.String)">
+            <summary>
+            Verify digital signature
+            </summary>
+            <param name="hashSumOfMessage">Hash sum of checking message</param>
+            <param name="digitalSignature">Digital signature</param>
+            <param name="publicKey">Public key from other side</param>
+            <returns>Is valid</returns>
+        </member>
+    </members>
+</doc>

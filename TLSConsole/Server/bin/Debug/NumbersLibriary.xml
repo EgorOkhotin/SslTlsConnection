@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NumbersLibriary</name>
+    </assembly>
+    <members>
+        <member name="M:NumbersLibriary.NumberWorker.SurfaceTest(System.Numerics.BigInteger,System.Int32)">
+            <summary>
+            Surface test on simple number
+            </summary>
+            <param name="number">Tested number</param>
+            <param name="highBorderNumberOfTest">High border of test</param>
+            <returns>IsSimple</returns>
+        </member>
+        <member name="M:NumbersLibriary.NumberWorker.RabinMillerTest(System.Numerics.BigInteger,System.Int32)">
+            <summary>
+            Test of Rabin-Miller
+            </summary>
+            <param name="number">Tested number</param>
+            <param name="countOfRounds">Count round of test</param>
+            <returns>IsSimple</returns>
+        </member>
+    </members>
+</doc>

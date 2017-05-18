@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TlsLibriary</name>
+    </assembly>
+    <members>
+        <member name="M:TlsLibriary.TlsClientManager.ParseSetConnectMessage(System.String)">
+            <summary>
+            Parse and set connect data from server
+            </summary>
+            <param name="message">message from server</param>
+        </member>
+        <member name="M:TlsLibriary.TlsClientManager.GetConnectAnswer">
+            <summary>
+            Public key for server
+            </summary>
+            <returns>message for server</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsManager.EncryptMessage(System.String,System.Byte[]@,System.Byte[]@)">
+            <summary>
+            Encrypt message
+            </summary>
+            <param name="message">Text whic must be encrypt</param>]
+            <param name="IV">Initialization vector (16 bytes)</param>
+            <param name="hashSumMessage">Hash sum of message</param>
+            <returns>Encrypted message(in byte[])</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsManager.EncryptMessage(System.String,System.Byte[]@)">
+            <summary>
+            Encrypt message
+            </summary>
+            <param name="message">Text whic must be encrypt</param>]
+            <param name="IV">Initialization vector (16 bytes)</param>
+            <returns>Encrypted message(in byte[])</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsManager.DecryptMessage(System.Byte[],System.Byte[],System.Byte[],System.Boolean@)">
+            <summary>
+            Decrypt message
+            </summary>
+            <param name="encryptMessage">text whic must be decrypt</param>
+            <param name="IV">Initialization vector(16 bytes)</param>
+            <param name="hashSumMessage">Hash sum of message</param>
+            <param name="isSuccess">(hash sum message) == (decrypt hash sum message)</param>
+            <returns>Decrypted message</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsManager.DecryptMessage(System.Byte[],System.Byte[])">
+            <summary>
+            Decrypt message
+            </summary>
+            <param name="encryptMessage">text whic must be decrypt</param>
+            <param name="IV">Initialization vector(16 bytes)</param>
+            <returns>Decrypted message</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsServerManager.GetConnectMessage">
+            <summary>
+            Message for client of server
+            </summary>
+            <returns>message for client</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsServerManager.SetClientPublicKey(System.String)">
+            <summary>
+            Set value of answer from client
+            </summary>
+            <param name="answer"></param>
+        </member>
+        <member name="M:TlsLibriary.TlsServerManager.ParseConnectAnswer(System.String)">
+            <summary>
+            Parse answer from client
+            </summary>
+            <param name="answer">Aswer of client on connect message</param>
+            <returns>parsed answer</returns>
+        </member>
+        <member name="M:TlsLibriary.TlsServerManager.SetKeyOfEncrypt">
+            <summary>
+            Set key for encryption
+            </summary>
+        </member>
+    </members>
+</doc>

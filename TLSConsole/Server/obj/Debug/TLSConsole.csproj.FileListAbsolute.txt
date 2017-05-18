@@ -1,0 +1,27 @@
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe.config
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\bin\Debug\TLSConsole.pdb
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\obj\Debug\TLSConsole.exe
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\obj\Debug\TLSConsole.pdb
+c:\users\егор\documents\visual studio 2017\Projects\TLSConsole\TLSConsole\obj\Debug\TLSConsole.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe.config
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.exe
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TLSConsole.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.exe
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\RsaLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TlsLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\DHProtocolLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\KeysLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\NumbersLibriary.dll
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\RsaLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\RsaLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TlsLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\TlsLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\DHProtocolLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\DHProtocolLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\KeysLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\KeysLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\NumbersLibriary.pdb
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\bin\Debug\NumbersLibriary.xml
+C:\Users\Егор\Documents\SslTlsConnection\TLSConsole\TLSConsole\obj\Debug\TLSConsole.csprojResolveAssemblyReference.cache
